@@ -1,0 +1,14 @@
+@StudentApi_HostAddress = http://localhost:5133
+
+GET {{StudentApi_HostAddress}}/api/students
+Accept: application/json
+
+###
+
+GET {{StudentApi_HostAddress}}/api/students/1
+Accept: application/json
+
+###
+
+GET {{StudentApi_HostAddress}}/api/students/999
+Accept: application/json
